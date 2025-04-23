@@ -12,6 +12,12 @@
  
 }
 
+img {
+    padding: inherit;
+    margin:auto;
+    text-align:center;
+}
+
 main{
     text-align: center
 }
