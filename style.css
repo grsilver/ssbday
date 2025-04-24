@@ -1,23 +1,40 @@
-h1{
+.title{
     color:white;
+    text-align: center;
+    font-size: x-large;
+}
+.titleContainer{
+    margin: 0 auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .box1 {
     padding:2px;
     text-align: center;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
-    background: linear-gradient(to bottom,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+    border: solid 1px #2989d8;
 
 }
 .box1Title{
     color:red;
     text-align: center;
+    text-transform: uppercase;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100;Blue+Pipe+%232 */
+    background: linear-gradient(to bottom,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
 .boxBody{
     text-align: center;
+    background-color: white;
+}
+
+.boxBody div{
+    margin-bottom: 10px;
+}
+li{
+    text-align: left;
 }
 
 img {
@@ -27,10 +44,8 @@ img {
 }
 
 main{
-    text-align: cente;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    width:350px;
     padding:2px;
+    width: 420px;
+    margin: 0 auto;
+    border: solid 1px #2989d8;
 }
-
