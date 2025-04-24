@@ -37,10 +37,9 @@ li{
     text-align: left;
 }
 
-img {
-    padding: inherit;
+#bunny {
     margin:auto;
-    text-align:center;
+    width:100%;
 }
 
 main{
